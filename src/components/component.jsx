@@ -99,9 +99,6 @@ export function Component() {
       <ToastContainer position="top-right" autoClose={5000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover />
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold">Shareholding Dilution Simulator</h1>
-        <Link href="#" className="text-primary hover:underline" prefetch={false}>
-          Learn More
-        </Link>
       </div>
       <div
         className="bg-background rounded-lg border shadow-sm p-6 md:p-8 space-y-6">
